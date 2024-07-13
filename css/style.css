@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style-type: square;
+    background-color: beige ;
+}
+ul li{
+    background-color: cadetblue;
+    padding: 10px;
+}
+a:link{
+    color :darkcyan
+}
+a:visited{
+    color: gold
+}
+a:hover{
+    color:aquamarine
+}
