@@ -1,14 +1,38 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css?family=Spectral|Rubik');
+*{
+   
+    
 }
 
+
+body{
+    font-family: Rubik,Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+h1,h2,h3{
+    font-family: Spectral, serif;
+
+
+    
+}
+.title{
+    color: darkorange;
+}
 ul{
     list-style-type: square;
     background-color: beige ;
+    border: 4px rgb(228, 213, 154) solid;
 }
 ul li{
     background-color: cadetblue;
+    padding: 10px;
+   
+}
+
+ol{
+    border: 2px cornsilk solid;
+}
+ol li{
     padding: 10px;
 }
 a:link{
@@ -19,4 +43,9 @@ a:visited{
 }
 a:hover{
     color:aquamarine
+}
+
+img{
+    height: 500px;
+    width: auto;
 }
